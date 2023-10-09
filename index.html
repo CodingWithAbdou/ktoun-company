@@ -4,23 +4,158 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <header>
-            <h1>Welcome to Your Website</h1>
-        </header>
-        <nav>
-            <!-- Navigation menu here -->
+        <!-------------- 
+            Navigation
+        --------------->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand w-50"   href="index.html">
+                    <img src="assets/img/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">خدماتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عملائنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">تواصل معنا</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
-        <main>
-            <section>
-                <h2>About Us</h2>
-                <p>Content goes here...</p>
+        <header>
+            <div class="header row">
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h1>
+                        قطـــــون
+                    </h1>
+                    <p>
+                        قطون لتنظيم وإدارة الفعاليات، نهدف إلى تقديم حلول مبتكرة لتلبية متطلبات الفعاليات المختلفة
+                    </p>
+                    <a href="">
+                        خدماتنا
+                    </a>
+                </div>
+                <div class="col-md-6 d-flex  align-items-center justify-content-center">
+                    <div class="w-50">
+                        <img class="img-fluid img" src="assets/img/header.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="">
+            <section class="row py-4 about">
+                <div class="col-md-6 d-flex  align-items-center justify-content-centercol-md-6 d-flex  align-items-center justify-content-center">
+                    <div class="w-50">
+                        <img class="img-fluid img" src="assets/img/about.jpeg" alt="">
+                    </div >
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-centercol-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h1>
+                        من نحن
+                    </h1>
+                    <p class="w-50">
+                        مؤسسة قطون لتنظيم وإدارة الفعاليات، نهدف إلى تقديم حلول مبتكرة لتلبية متطلبات الفعاليات المختلفة، وتوفير التجهيزات التقنية والفنية والخدمات اللوجستية بأعلى جودة وأفضل أسعار ،نحرص بشكل خاص على تنظيم الفعاليات التراثية مثل المهرجانات والعروض الفنية المحلية، نتعاون بشكل وثيق مع شركائنا والجهات المانحة والمنظمات المحلية والدولية لتحقيق أهدافنا وتوفير أفضل تجربة للجمهور.
+                    </p>
+                </div>
             </section>
-            <!-- More sections... -->
+
+            <section class="services py-4">
+                <div class="row  text-center">
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/gift.svg" alt="">
+                        <span class="d-block">
+                            الهدايا و
+                            الطباعة
+                        </span>
+                    </div>
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/creativity.svg" alt="">
+                        <span class="d-block">
+                            الخدمات
+                            الإبداعية
+                        </span>
+                    </div>
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/star.svg" alt="">
+                        <span class="d-block">
+                            الخدمات
+                            اللوجستية
+                        </span>
+                    </div>
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/event.svg" alt="">
+                        <span class="d-block">
+                            الفعاليات      
+                        </span>
+                    </div>
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/heritage.svg" alt="">
+                        <span class="d-block">
+                            المهرجانات
+                            التراثية
+                        </span>
+                    </div>
+                    <div class="box col-md-4 col-sm-6 col-12">
+                        <img src="assets/img/design.svg" alt="">
+                        <span class="d-block">
+                            التصاميم
+                            الهندسية
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="clients py-4">
+                <div class="row  text-center">
+                    <img class="img-fluidimg-fluid" src="assets/img/client.jpeg" alt="">
+                </div>
+            </section>
+
         </main>
         <footer>
-            <p>&copy; 2023 Your Company</p>
-        </footer>
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h1>
+                        قطـــــون
+                    </h1>
+                    <p>
+                        قطون لتنظيم وإدارة الفعاليات، نهدف إلى تقديم حلول مبتكرة لتلبية متطلبات الفعاليات المختلفة
+                    </p>
+                    <div>
+                        <img src="assets/img/media.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex  align-items-center justify-content-center">
+                    <form action="">
+                        <div class="d-flex flex-column gap-2">
+                            <input name="name" type="text" placeholder="الإسم">
+                            <input name="email" type="email" placeholder="الإيميل">
+                            <textarea name="subject" rows="3"></textarea>
+                            <input type="submit" value="أرسال">
+                        </div>
+                    </form>    
+                </div>
+            </div>
+            <p class="text-center py-2">حميع الحقوق محفوظة لمؤسسة كتون</p>
+        </footer> 
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>

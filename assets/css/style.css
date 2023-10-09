@@ -1,0 +1,21 @@
+
+@font-face {
+    src: url(../fonts/alfont_com_GE-SS-Two-Medium.otf);
+    font-family: GE SS Two;
+}
+
+body {
+    font-family: 'GE SS Two';
+    overflow-x: hidden;
+}
+.header {
+    height: calc(100vh - 56px );
+}
+.header , main , footer {
+    padding-inline: 3rem;
+}
+
+.img {
+    height: 70vh;
+    object-fit: cover;
+}
