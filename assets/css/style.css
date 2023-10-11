@@ -3,6 +3,8 @@
 * Global
 ****
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 @font-face {
     src: url(../fonts/alfont_com_GE-SS-Two-Medium.otf);
     font-family: GE SS Two;
@@ -52,6 +54,10 @@ textarea { resize: none; }
 * Helpers
 ****
 */
+
+.ff-montserrat  { font-family: 'Montserrat', sans-serif }
+
+.ff-GE_SS_tow  { font-family: 'GE SS Two'}
 
 .background-green { background: var(--green) }
 
