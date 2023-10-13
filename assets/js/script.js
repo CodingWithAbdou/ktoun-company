@@ -16,3 +16,7 @@ const date = document.querySelector("footer .date");
 
 date.innerText = currentDate;
 
+
+
+// init Aos 
+    AOS.init();
