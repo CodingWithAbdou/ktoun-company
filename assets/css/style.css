@@ -360,6 +360,10 @@ footer  { padding-block-start: 8rem }
     .copyright {
         font-size: 12px !important;;
     }
+
+    .img {
+        max-width: 340px;
+    }
 }
 
 @media (min-width: 768px) {
