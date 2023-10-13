@@ -19,4 +19,6 @@ date.innerText = currentDate;
 
 
 // init Aos 
-    AOS.init();
+    AOS.init({
+        duration: 800
+    });
