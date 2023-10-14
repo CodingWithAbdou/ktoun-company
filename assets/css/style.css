@@ -202,7 +202,7 @@ header { margin-block: -0.2rem;}
     background-size: 100% 100%;
 }
 
-.mini-box:hover .img_svg {transition: var(--transition-1);;}
+/* .mini-box:hover .img_svg {transition: var(--transition-1);;} */
 
 .img_svg.gift { background-image: url('../img/gift.svg'); }
 .mini-box:hover .img_svg.gift { background-image: url('../img/gift_hover.svg'); }
